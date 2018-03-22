@@ -1,0 +1,11 @@
+---
+# Install Tomcat and Deploy the Java Web application.
+
+- name: Install Tomcat and Deploy the Java Web application
+  hosts: tomcat-servers
+  remote_user: ansadmin
+  become: yes
+  become_method: sudo
+
+  roles:
+    - tomcat

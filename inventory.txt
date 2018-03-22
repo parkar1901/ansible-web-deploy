@@ -1,0 +1,2 @@
+[tomcat-servers]
+web_server2 ansible_host=172.31.25.113 ansible_user=ansadmin ansible_ssh_pass=ansadmin
